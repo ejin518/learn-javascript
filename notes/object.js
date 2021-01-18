@@ -26,8 +26,8 @@ console.log(ellie.hasJob);
 
 // 2. Computed properties
 // key should be always string
-console.log(ellie.name);
-console.log(ellie['name']);
+console.log(ellie.name); //오브젝트의 KYE를 가져오는 방법
+console.log(ellie['name']); //오브젝트의 KYE를 가져오는 방법
 ellie['hasJob'] = true;
 console.log(ellie.hasJob);
 
