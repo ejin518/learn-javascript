@@ -98,8 +98,8 @@ class Shape {
 
 class Rectangle extends Shape {}
 class Triangle extends Shape {
-  draw() {
-    super.draw();
+  draw() {//Triangle에 특별한 속성을 부여하고 싶을 때 안에 추가할 수 있다.
+    super.draw();//부모에 속성된 draw에 정의 된 내용 console.log(`drawing ${this.color} color!`); 을 가져온다.
     console.log('🔺');
   }
   getArea() {
