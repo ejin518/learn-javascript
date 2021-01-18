@@ -28,7 +28,11 @@ for (let fruit of fruits) {
 }
 
 // c. forEach
-fruits.forEach((fruit) => console.log(fruit));
+fruits.forEach((fruit) => console.log(fruit));     //fruit는 forEach에서 value를 의미함.
+
+// furits.forEach(function (fruit, index){      function에 이름이 없으면 function과 {}를 생략하고 arrow 함수 ( => ) 를 사용할 수 있음.
+//  console.log(fruit, index);    
+//});
 
 // 4. Addtion, deletion, copy
 // push: add an item to the end
