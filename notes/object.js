@@ -27,10 +27,11 @@ console.log(ellie.hasJob);
 // 2. Computed properties
 // key should be always string
 console.log(ellie.name); //오브젝트의 KYE를 가져오는 방법
-console.log(ellie['name']); //오브젝트의 KYE를 가져오는 방법. 여기서 key는 string 타입으로 가져와야 함. 항상 ''를 써야함.
-ellie['hasJob'] = true; //이런 방법으로 key를 추가할 수 있다.
+console.log(ellie['name']); // Computed properties. 오브젝트의 KYE를 가져오는 방법. 여기서 key는 string 타입으로 가져와야 함. 항상 ''를 써야함.
+ellie['hasJob'] = true; //Computed properties의 방법으로 key를 추가할 수 있다.
 console.log(ellie.hasJob);
 
+//Computed properties 써야하는 경우, 보통 코딩할 때는 .을 쓴다.
 function printValue(obj, key) {
   console.log(obj[key]);
 }
