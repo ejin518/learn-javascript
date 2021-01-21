@@ -16,7 +16,7 @@ const rabbit = {
   color: 'white',
   size: null,
   birthDate: new Date(),
-  jump: function () {
+  jump: function () {  // 결과값을 출력하면 jump함수는 object에 있는 data가 아니기 때문에 콘솔에 출력되지 않는다.
     console.log(`${this.name} can jump!`);
   },
 };
