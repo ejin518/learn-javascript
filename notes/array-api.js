@@ -58,6 +58,7 @@ const students = [
 
 // Q7. make an array containing only the students' scores
 // result should be: [45, 80, 90, 66, 88]
+// array의 각 item에 function 적용한 후 새로운 array를 만들어 준다.
 {
   const result = students.map((student) => student.score);
   console.log(result);
